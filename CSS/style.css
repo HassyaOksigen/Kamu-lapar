@@ -1,6 +1,6 @@
 :root {
   --bg: rgb(124, 125, 111);
-  --primary: rgb(59, 69, 88);
+  --primary: rgb(222, 224, 228);
   --text: rgb(0, 0, 0);
 }
 
@@ -14,7 +14,7 @@
 }
 
 .head {
-  background-color: rgba(124, 125, 111, 0.8);
+  background-color: rgba(124, 125, 111, 0.9);
   display: flex;
   justify-content: space-between;
   border-bottom: 2px solid var(--text);
@@ -81,7 +81,11 @@ content: "";
 
 .search .motto {
   width: 25%;
+  height: 100vh;
   margin: 20px 20px;
-  background-color: yellow;
   padding: 25px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  line-height: 30vh;
 }
